@@ -98,6 +98,7 @@ function gameController(){
         let row = prompt(`${activePlayer.name}, Choose row (0-2)`);
         let col = prompt(`${activePlayer.name}, Choose column (0-2)`);
         
+        //checks if space taken
         if (Gameboard.board[row][col] !== ""){
             console.log(`That space is taken, choose again`)
             continue;
