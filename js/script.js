@@ -126,15 +126,16 @@ function gameController(){
        }) 
             
       let gameOver = false;
-  
+      let row;
+      let col;
             
       boardContainer.addEventListener("click", (e) => {
         if (gameOver) return;
 
 
 
-        let row = +e.target.dataset.row;
-        let col = +e.target.dataset.col;
+        row = +e.target.dataset.row;
+        col = +e.target.dataset.col;
          
          
          
