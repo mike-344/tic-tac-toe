@@ -1,5 +1,5 @@
 # tic-tac-toe
+Tic-Tac-Toe with vanilla javascript, html, css. 
 
-Playable in console with command game.playGame() <br />
 Link to project:
 https://mike-344.github.io/tic-tac-toe/
